@@ -34,7 +34,7 @@ privacy.html        Privacy stub
 terms.html          Terms stub
 css/styles.css      Styles (day mode design system)
 js/main.js          App Store links + scroll reveal
-images/             App screenshots (include telemetryscreen.jpg for Live Data HUD)
+images/             App screenshots (.webp): hero-compass, nearbyscreen, telemetryscreen, sunshadowscreen, polaroidscreen
 .nojekyll           GitHub Pages helper
 ```
 
