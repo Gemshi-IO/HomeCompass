@@ -1,5 +1,5 @@
 (function () {
-  var APP_STORE_URL = "https://apps.apple.com/app/home-compass";
+  var APP_STORE_URL = "https://apps.apple.com/app/roamy-home-compass-sun/id6799052119";
 
   document.querySelectorAll("[data-app-store]").forEach(function (el) {
     el.setAttribute("href", APP_STORE_URL);
