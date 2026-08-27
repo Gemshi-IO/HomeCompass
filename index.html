@@ -3,11 +3,59 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Roamy: Home, Compass &amp; Sun — GPS Home Compass App for iOS
+    </title>
     <meta
       name="description"
-      content="Find comfort in knowing exactly how far and in what direction home is. Plus, search for any Point of Interest and let the compass guide you straight to it. Roamy: Home, Compass & Sun for iOS."
+      content="Roamy is a GPS home compass for iPhone. See how far and which way home is, search any place, track sun and shadow, and stamp photos with live coordinates. Free on the App Store."
     />
-    <title>Roamy: Home, Compass &amp; Sun — Point me to Home.</title>
+    <meta
+      name="keywords"
+      content="home compass, GPS compass, waypoint tracker, sun tracker, iOS navigation app, find home direction, Roamy"
+    />
+    <meta name="author" content="Gemshi" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#F5F5F7" />
+    <link rel="canonical" href="https://gemshi.com/HomeCompass/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Roamy: Home, Compass &amp; Sun" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://gemshi.com/HomeCompass/" />
+    <meta
+      property="og:title"
+      content="Roamy: Home, Compass &amp; Sun — Point me to Home."
+    />
+    <meta
+      property="og:description"
+      content="Find how far and which way home is. Search any place, track sun and shadow, and stamp photos with live GPS data. Free GPS compass for iOS."
+    />
+    <meta
+      property="og:image"
+      content="https://gemshi.com/HomeCompass/images/hero-compass.webp"
+    />
+    <meta property="og:image:alt" content="Roamy home compass app on iPhone" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Roamy: Home, Compass &amp; Sun — GPS Home Compass for iOS"
+    />
+    <meta
+      name="twitter:description"
+      content="Find how far and which way home is. Search any place, track sun and shadow, stamp photos with live coordinates. Free on iOS."
+    />
+    <meta
+      name="twitter:image"
+      content="https://gemshi.com/HomeCompass/images/hero-compass.webp"
+    />
+
+    <!-- App Store smart banner -->
+    <meta name="apple-itunes-app" content="app-id=6799052119" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,39 +63,87 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Roamy: Home, Compass & Sun",
+        "applicationCategory": "NavigationApplication",
+        "operatingSystem": "iOS",
+        "description": "GPS home compass for iPhone. See how far and which way home is, search any place, track sun and shadow, and stamp photos with live coordinates.",
+        "url": "https://gemshi.com/HomeCompass/",
+        "image": "https://gemshi.com/HomeCompass/images/hero-compass.webp",
+        "downloadUrl": "https://apps.apple.com/app/roamy-home-compass-sun/id6799052119",
+        "offers": [
+          {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free, ad-supported"
+          },
+          {
+            "@type": "Offer",
+            "price": "5.99",
+            "priceCurrency": "USD",
+            "description": "Lifetime Pro — remove ads and unlimited stamped photo exports"
+          }
+        ],
+        "author": {
+          "@type": "Organization",
+          "name": "Gemshi",
+          "url": "https://gemshi.com/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Gemshi",
+          "url": "https://gemshi.com/"
+        }
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <div class="wrap nav">
-        <a class="logo" href="#">Roamy<span class="logo-tagline">: Home, Compass &amp; Sun</span></a>
+        <a class="logo" href="https://gemshi.com/HomeCompass/"
+          >Roamy<span class="logo-tagline">: Home, Compass &amp; Sun</span></a
+        >
         <div class="nav-end">
           <ul class="nav-links">
             <li><a href="#features">Features</a></li>
             <li><a href="#pro">Pro</a></li>
           </ul>
-          <a class="btn btn--cyan btn--sm" data-app-store href="#"
-            >Download on the App Store</a
+          <a
+            class="btn btn--cyan btn--sm"
+            data-app-store
+            href="https://apps.apple.com/app/roamy-home-compass-sun/id6799052119"
+            >Download Free for iOS</a
           >
         </div>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" aria-labelledby="hero-heading">
         <div class="wrap hero-inner reveal">
-          <h1>Point me to Home.</h1>
+          <h1 id="hero-heading">Point me to Home.</h1>
           <p class="lead">
-            Find comfort in knowing exactly how far and in what direction home is. Plus, search for any Point of Interest and let the compass guide you straight to it.
+            Find comfort in knowing exactly how far and in what direction home
+            is. Plus, search for any Point of Interest and let the compass guide
+            you straight to it.
           </p>
           <div class="hero-cta">
-            <a class="btn btn--cyan" data-app-store href="#"
-              >Download on the App Store</a
+            <a
+              class="btn btn--cyan"
+              data-app-store
+              href="https://apps.apple.com/app/roamy-home-compass-sun/id6799052119"
+              >Download Free for iOS</a
             >
           </div>
           <div class="hero-frame">
             <img
               src="images/hero-compass.webp"
-              alt="Roamy: Home, Compass &amp; Sun bearing instrument on iPhone"
+              alt="Roamy iOS app showing a GPS home compass needle pointing toward home"
               width="2100"
               height="1000"
               fetchpriority="high"
@@ -56,112 +152,125 @@
         </div>
       </section>
 
-      <section id="features" class="features">
-        <div class="wrap features-stack">
-          <article class="feature reveal">
-            <div class="feature-media">
-              <div class="phone-panel">
-                <div class="phone-panel-inner">
-                  <img
-                    src="images/nearbyscreen.webp"
-                    alt="Nearby locations aligned on compass radar"
-                    width="390"
-                    height="844"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="feature-copy">
-              <span class="label">Radar Alignment</span>
-              <h2>See what's around you instantly.</h2>
-              <p>
-                A unified view of your locked locations and nearby points of
-                interest, relative to your current heading.
-              </p>
-            </div>
-          </article>
+      <section id="features" class="features" aria-labelledby="features-heading">
+        <div class="wrap">
+          <header class="features-header reveal">
+            <span class="label label--muted">Features</span>
+            <h2 id="features-heading">
+              Home compass, live telemetry, and sun tracking.
+            </h2>
+            <p class="features-intro">
+              Roamy combines a home-direction compass, situational HUD, and
+              celestial tools in one clean iOS instrument.
+            </p>
+          </header>
 
-          <article class="feature feature--reverse reveal">
-            <div class="feature-media">
-              <div class="phone-panel">
-                <div class="phone-panel-inner">
-                  <img
-                    src="images/telemetryscreen.webp"
-                    alt="Live tactical telemetry dashboard with speed, altitude, and heading"
-                    width="390"
-                    height="844"
-                    loading="lazy"
-                  />
+          <div class="features-stack">
+            <article class="feature reveal">
+              <div class="feature-media">
+                <div class="phone-panel">
+                  <div class="phone-panel-inner">
+                    <img
+                      src="images/nearbyscreen.webp"
+                      alt="Roamy radar screen aligning nearby places and locked locations to your heading"
+                      width="390"
+                      height="844"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="feature-copy">
-              <span class="label">Live Data HUD</span>
-              <h2>Real-time situational awareness.</h2>
-              <p>
-                Monitor your live speed, average and top velocity, MSL
-                altitude, true heading, and exact position fix on a single
-                high-contrast dashboard. Engineered for instant legibility in
-                high-glare field conditions.
-              </p>
-            </div>
-          </article>
+              <div class="feature-copy">
+                <span class="label">Radar Alignment</span>
+                <h3>See what's around you instantly.</h3>
+                <p>
+                  A unified view of your locked locations and nearby points of
+                  interest, relative to your current heading.
+                </p>
+              </div>
+            </article>
 
-          <article class="feature reveal">
-            <div class="feature-media">
-              <div class="phone-panel">
-                <div class="phone-panel-inner">
-                  <img
-                    src="images/sunshadowscreen.webp"
-                    alt="Sun and shadow elevation telemetry"
-                    width="390"
-                    height="844"
-                    loading="lazy"
-                  />
+            <article class="feature feature--reverse reveal">
+              <div class="feature-media">
+                <div class="phone-panel">
+                  <div class="phone-panel-inner">
+                    <img
+                      src="images/telemetryscreen.webp"
+                      alt="Roamy live data HUD with speed, altitude, heading, and GPS position"
+                      width="390"
+                      height="844"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="feature-copy">
-              <span class="label">Celestial Telemetry</span>
-              <h2>Track the light.</h2>
-              <p>
-                Precision sun and shadow tracking. Plan your camp setup or
-                photography shoots with real-time solar elevation and azimuth
-                data.
-              </p>
-            </div>
-          </article>
+              <div class="feature-copy">
+                <span class="label">Live Data HUD</span>
+                <h3>Real-time situational awareness.</h3>
+                <p>
+                  See exactly what area you are in. Monitor your live speed,
+                  average and top velocity, MSL altitude, true heading, and exact
+                  position fix on a single high-contrast dashboard. Engineered for
+                  instant legibility in high-glare field conditions.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature reveal">
+              <div class="feature-media">
+                <div class="phone-panel">
+                  <div class="phone-panel-inner">
+                    <img
+                      src="images/sunshadowscreen.webp"
+                      alt="Roamy sun and shadow tracker showing solar elevation and azimuth"
+                      width="390"
+                      height="844"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="feature-copy">
+                <span class="label">Celestial Telemetry</span>
+                <h3>Track the light.</h3>
+                <p>
+                  Precision sun and shadow tracking. Plan your camp setup or
+                  photography shoots with real-time solar elevation and azimuth
+                  data.
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="cinematic">
+      <section class="cinematic" aria-labelledby="cinematic-heading">
         <div class="wrap reveal">
           <div class="cinematic-card">
             <img
               src="images/polaroidscreen.webp"
-              alt="Photo stamped with live tactical coordinates"
+              alt="Photo stamped with Roamy live GPS coordinates and tactical telemetry"
               width="1600"
               height="900"
               loading="lazy"
             />
             <div class="cinematic-overlay" aria-hidden="true"></div>
             <div class="cinematic-text">
-              <h2>Document your coordinates.</h2>
+              <h2 id="cinematic-heading">Document your coordinates.</h2>
               <p>
-                Overlay your live tactical data onto your photos to prove
-                exactly where you stood.
+                Overlay your live tactical data onto your photos to prove exactly
+                where you stood.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="pro" class="pricing">
+      <section id="pro" class="pricing" aria-labelledby="pricing-heading">
         <div class="wrap">
           <header class="pricing-header reveal">
             <span class="label label--muted">Access</span>
-            <h2>Choose your instrument.</h2>
+            <h2 id="pricing-heading">Choose your instrument.</h2>
           </header>
 
           <div class="pricing-grid">
@@ -201,12 +310,11 @@
             class="footer-brand"
             href="https://gemshi.com/"
             rel="noopener noreferrer"
-            aria-label="Gemshi"
           >
             <img
               class="footer-logo"
               src="images/GemshiLogoLight.png"
-              alt=""
+              alt="Gemshi"
               width="512"
               height="512"
             />

@@ -270,6 +270,23 @@ h3 {
   padding: clamp(2rem, 5vw, 4rem) 0;
 }
 
+.features-header {
+  text-align: center;
+  margin-bottom: clamp(3rem, 8vw, 5rem);
+}
+
+.features-header h2 {
+  margin-top: 1rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+}
+
+.features-intro {
+  margin: 1rem auto 0;
+  max-width: 36rem;
+  font-size: 1.0625rem;
+  color: var(--muted);
+}
+
 .features-stack {
   display: flex;
   flex-direction: column;
@@ -340,7 +357,8 @@ h3 {
   display: block;
 }
 
-.feature-copy h2 {
+.feature-copy h2,
+.feature-copy h3 {
   margin-top: 1rem;
   font-size: clamp(1.75rem, 4vw, 2.25rem);
 }
